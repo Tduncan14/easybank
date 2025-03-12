@@ -3,9 +3,28 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
 }
 
 
+/* - Dark Blue: hsl(233, 26%, 24%)
+- LimeGreen: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- LightGrayishBlue: hsl(220, 16%, 96%)
+- VeryLightGray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+
+ */
 
 * {
   margin: 0;
@@ -52,7 +71,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background: blue;
+
 }
 
 
@@ -62,6 +81,7 @@ body {
 
 .contentTop {
   display: flex;
+  background-color: var(--LightGrayishBlue);
 }
 
 /* beginning of the left content */
@@ -69,7 +89,6 @@ body {
 .leftContent {
   flex: 1;
   display: flex;
-  justify-items: center;
   padding-top: 8rem;
   flex-direction: column;
 }
@@ -77,9 +96,23 @@ body {
 
 .contentHo {
   font-size: 5rem;
+  font-weight: 300;
+}
+
+.leftContent p {
+  color: var(--GrayishBlue);
+  font-size: clamp(16px, 18px, 20px);
+  width: 69%;
+  margin-top: 1rem;
 }
 
 
+.leftContent button {
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  background: blue;
+  width: 40%;
+}
 
 
 /* end of left content */
@@ -91,10 +124,13 @@ body {
   background-position: 10px -200px;
   flex: 1;
   background-repeat: no-repeat;
+  position: relative;
   overflow-y: hidden;
+
 }
 
 .positionP {
-  position: relative;
+
+  position: absolute;
   top: -100px;
 }

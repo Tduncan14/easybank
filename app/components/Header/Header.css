@@ -6,4 +6,5 @@
 .centerNav ul {
     display: flex;
     gap: 30px;
+    color: var(--GrayishBlue);
 }

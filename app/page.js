@@ -33,10 +33,16 @@ export default function Home() {
         <div className="rightContent mockup">
 
 
-          <Image className="positionP" src={mockup} height={200} width={900} />
+          <Image className="positionP" src={mockup} height={900} width={900} />
 
 
         </div>
+
+      </div>
+
+
+      <div class="sectionTwo">
+        hh
 
       </div>
 
