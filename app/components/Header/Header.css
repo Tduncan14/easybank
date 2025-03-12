@@ -1,0 +1,9 @@
+.headerBank {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerNav ul {
+    display: flex;
+    gap: 30px;
+}
