@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import './globals.css'
 import Image from "next/image";
 import mockup from './images/image-mockups.png'
+import EasyBank from "./components/EasyBank/EasyBank";
 
 export default function Home() {
   return (
@@ -41,11 +42,7 @@ export default function Home() {
       </div>
 
 
-      <div class="sectionTwo">
-        hh
-
-      </div>
-
+      <EasyBank />
     </div>
   );
 }

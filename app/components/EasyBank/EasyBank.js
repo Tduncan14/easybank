@@ -1,5 +1,6 @@
 import React from "react";
 import './EasyBank.css'
+import Cards from "../Card/Card";
 
 
 const EasyBank = () => {
@@ -20,6 +21,13 @@ const EasyBank = () => {
             </p>
 
             <div class="easybanks">
+
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+
+
 
 
             </div>
