@@ -1,0 +1,38 @@
+.styleImage {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+.Article {
+    background: white;
+    margin-top: 4rem;
+
+}
+
+.ArticleContent {
+    padding: 1.4rem;
+}
+
+
+.ArticleContent h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: clamp(10px, 12px, 16px);
+    color: hsl(233, 8%, 62%);
+
+}
+
+
+.ArticleContent h1 {
+    margin-bottom: 1rem;
+}
+
+
+.ArticleContent p {
+    color: hsl(233, 8%, 62%);
+    padding-bottom: .5rem;
+}

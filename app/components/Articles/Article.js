@@ -1,7 +1,8 @@
 import React from "react";
+import './Article.css'
+import Image from "next/image";
 
-
-const Article = ({ picture, author, content }) => {
+const Article = ({ picture, title, author, content }) => {
 
 
 
@@ -9,7 +10,23 @@ const Article = ({ picture, author, content }) => {
 
 
     return (
-        <div>
+        <div className="Article">
+
+
+            <div class="ArticleImg">
+                <Image className="styleImage" src={picture} />
+            </div>
+
+
+            <div class="ArticleContent">
+
+                <h3>{author}</h3>
+                <h1>{title}</h1>
+
+
+                <p> {content}</p>
+            </div>
+
 
         </div>
     )
