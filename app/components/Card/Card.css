@@ -1,0 +1,28 @@
+.easyOne {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 1.4rem;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+
+
+.card h1 {
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    text-wrap: nowrap;
+}
+
+.card p {
+    color: hsl(233, 8%, 62%);
+    font-size: clamp(14px, 16px, 20px);
+}

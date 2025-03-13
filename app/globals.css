@@ -81,7 +81,7 @@ body {
 
 .contentTop {
   display: flex;
-  background-color: var(--LightGrayishBlue);
+  background-color: var(--VeryLightGray);
 }
 
 /* beginning of the left content */
